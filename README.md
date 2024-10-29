@@ -1,6 +1,6 @@
 # TypeScriptWithNodeJS
 
-Building a RESTful API with TypeScript and Node.js
+This is a very basic demo of using TypeScript for building a RESTful API with and Node and Express.
 
 ## Setup
 
