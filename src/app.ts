@@ -1,9 +1,13 @@
 import express from "express";
 // import express, {Request, Response, NextFunction} from "express"; // if we wanted to shorten the types
-import toDoRouter from "./routes/todos";
+import { json } from "body-parser";
+import toDoRouter from "./routes/todo-routes";
 
 const app = express();
 const PORT = "3030";
+
+// middleware parsing all bodies of incoming requests (to populate req.body)
+app.use(json());
 
 // for endpoint
 app.use("/todos", toDoRouter);
