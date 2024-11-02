@@ -5,7 +5,7 @@ This is a very basic demo of using TypeScript for building a RESTful API with an
 ## Setup
 
 - `npm init` to initialize `package.json`
-- `tsc init` to initialize `tsconfig.json`
+- `tsc --init` to initialize `tsconfig.json`
 
 ### Dev Dependencies `npm install --save-dev`
 
